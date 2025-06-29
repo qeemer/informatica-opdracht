@@ -1,0 +1,8 @@
+<a href="" onclick="stopTimer()">Go to Page C</a>
+
+<script>
+  function stopTimer() {
+    sessionStorage.setItem('stopTime', performance.now());
+    window.location.href = 'pageC.html'; // change to your actual Page C
+  }
+</script>
