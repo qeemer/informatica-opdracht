@@ -1,0 +1,12 @@
+h1{
+    color: blue
+}
+.group-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.group-1 h2 {
+  margin: 0;
+}

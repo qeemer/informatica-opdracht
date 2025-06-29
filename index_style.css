@@ -1,0 +1,31 @@
+.mooie-tabel {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.mooie-tabel th,
+.mooie-tabel td {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+.mooie-tabel thead {
+  background-color: #007BFF;
+  color: white;
+}
+
+.mooie-tabel tbody tr:nth-child(even) {
+  background-color: #f2f6fc;
+}
+
+.mooie-tabel tbody tr:hover {
+  background-color: #dbe9ff;
+  cursor: pointer;
+}
